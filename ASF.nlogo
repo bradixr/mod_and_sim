@@ -191,13 +191,13 @@ to reset
 end
 @#$#@#$#@
 GRAPHICS-WINDOW
-386
+599
 10
-788
-413
+1072
+484
 -1
 -1
-11.94
+14.1
 1
 10
 1
@@ -218,10 +218,10 @@ ticks
 30.0
 
 BUTTON
-208
-95
-271
-128
+185
+91
+248
+124
 NIL
 setup\n
 NIL
@@ -235,10 +235,10 @@ NIL
 1
 
 BUTTON
-282
-95
-345
-128
+251
+91
+314
+124
 NIL
 go
 T
@@ -253,9 +253,9 @@ NIL
 
 PLOT
 13
-149
-373
-412
+138
+587
+482
 Table
 NIL
 NIL
@@ -271,39 +271,39 @@ PENS
 "Dead" 1.0 0 -7500403 true "" "plot count turtles with [dead?]"
 
 SLIDER
-8
+13
 10
-376
+584
 43
 number_of_person
 number_of_person
 0
 100
-50.0
+15.0
 1
 1
 persons
 HORIZONTAL
 
 SLIDER
-9
+13
 49
-376
+583
 82
 number_of_pig
 number_of_pig
 0
 100
-50.0
+100.0
 1
 1
 pigs
 HORIZONTAL
 
 MONITOR
-10
+14
 87
-89
+93
 132
 Infected
 count turtles with [virus?]
@@ -312,10 +312,10 @@ count turtles with [virus?]
 11
 
 MONITOR
-99
-88
-196
-133
+95
+87
+179
+132
 Dead
 count turtles with [dead?]
 17
